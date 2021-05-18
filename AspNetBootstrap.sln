@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetBootstrap", "AspNetBootstrap\AspNetBootstrap.csproj", "{49FD574B-372D-430E-8BB3-D2BE112A0FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49FD574B-372D-430E-8BB3-D2BE112A0FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FD574B-372D-430E-8BB3-D2BE112A0FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FD574B-372D-430E-8BB3-D2BE112A0FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FD574B-372D-430E-8BB3-D2BE112A0FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34A3ADCE-1DA6-47AE-85D3-B2992EDCA6FB}
+	EndGlobalSection
+EndGlobal
