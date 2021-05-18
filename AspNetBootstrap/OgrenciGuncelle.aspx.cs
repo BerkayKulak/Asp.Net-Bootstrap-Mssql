@@ -21,7 +21,7 @@ namespace AspNetBootstrap
 
                     TxtOgrid.Text = id.ToString();
                     DataSet1TableAdapters.TBL_OGRENCITableAdapter dt = new DataSet1TableAdapters.TBL_OGRENCITableAdapter();
-                    TxtOgrAd.Text = dt.OgrenciSec(id)[0].OGRAD;
+                    TxtOgrAd.Text = dt.OgrenciSec(id)[0].OGRAD;//
                     TxtOgrSoyad.Text = dt.OgrenciSec(id)[0].OGRSOYAD;
                     TxtOgrMail.Text = dt.OgrenciSec(id)[0].OGRMAIL;
                     TxtOgrTelefon.Text = dt.OgrenciSec(id)[0].OGRTELEFON;
