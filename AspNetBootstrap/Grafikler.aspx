@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style type="text/css">
         .auto-style1 {
-            width: 516px;
+            height: 20px;
         }
     </style>
 </asp:Content>
@@ -12,11 +12,14 @@
     <form id="form1" runat="server">
 
         <table class="table table-bordered table-hover">
+         
+        </table>
+        <table class="nav-justified">
             <tr>
                 <td class="auto-style1">
-                    <asp:Chart ID="Chart1" runat="server" Width="500px">
+                    <asp:Chart ID="Chart6" runat="server" Width="500px">
                         <Series>
-                            <asp:Series Name="Kitap" ChartType="Pie">
+                            <asp:Series Name="Notlar">
                             </asp:Series>
                         </Series>
                         <ChartAreas>
@@ -25,10 +28,10 @@
                         </ChartAreas>
                     </asp:Chart>
                 </td>
-                <td>
-                    <asp:Chart ID="Chart2" runat="server" Width="500px">
+                <td class="auto-style1">
+                    <asp:Chart ID="Chart7" runat="server" Width="500px">
                         <Series>
-                            <asp:Series Name="Nüfus">
+                            <asp:Series ChartType="Area" Name="DersAd">
                             </asp:Series>
                         </Series>
                         <ChartAreas>
@@ -39,10 +42,10 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style1">
-                    <asp:Chart ID="Chart3" runat="server" Width="500px">
+                <td>
+                    <asp:Chart ID="Chart8" runat="server" Width="500px">
                         <Series>
-                            <asp:Series Name="Series1" ChartType="Line">
+                            <asp:Series ChartType="Bubble" Name="Cinsiyet" YValuesPerPoint="2">
                             </asp:Series>
                         </Series>
                         <ChartAreas>
@@ -52,9 +55,9 @@
                     </asp:Chart>
                 </td>
                 <td>
-                    <asp:Chart ID="Chart4" runat="server" Width="500px">
+                    <asp:Chart ID="Chart9" runat="server" DataSourceID="SqlDataSource1" Width="500px">
                         <Series>
-                            <asp:Series Name="Series1" ChartType="Area">
+                            <asp:Series ChartType="Pie" Name="Dersler">
                             </asp:Series>
                         </Series>
                         <ChartAreas>
@@ -62,6 +65,7 @@
                             </asp:ChartArea>
                         </ChartAreas>
                     </asp:Chart>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
                 </td>
             </tr>
         </table>

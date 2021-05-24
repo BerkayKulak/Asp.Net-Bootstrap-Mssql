@@ -11,61 +11,61 @@ namespace AspNetBootstrap
 {
 
 
-    public partial class Grafikler
+    public partial class MesajOlustur
     {
 
         /// <summary>
-        /// form1 control.
+        /// Form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// Chart6 control.
+        /// TxtGonderen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart6;
+        protected global::System.Web.UI.WebControls.TextBox TxtGonderen;
 
         /// <summary>
-        /// Chart7 control.
+        /// TxtAlici control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart7;
+        protected global::System.Web.UI.WebControls.TextBox TxtAlici;
 
         /// <summary>
-        /// Chart8 control.
+        /// TxtBaslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart8;
+        protected global::System.Web.UI.WebControls.TextBox TxtBaslik;
 
         /// <summary>
-        /// Chart9 control.
+        /// Txticerik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart9;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea Txticerik;
 
         /// <summary>
-        /// SqlDataSource1 control.
+        /// BtnGonder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.Button BtnGonder;
     }
 }
